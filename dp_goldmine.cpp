@@ -76,6 +76,7 @@ int getMaxGold(int people, int mineNum)
 
     //如果这个问题曾经计算过  [对应动态规划中的“做备忘录”]
     if(maxGold[people][mineNum] != -1){
+        cout<<"match ------ "<<endl;
         //获得保存起来的值
         return maxGold[people][mineNum];
     }
